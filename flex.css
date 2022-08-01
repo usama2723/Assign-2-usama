@@ -1,0 +1,126 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif; color: gray;
+}
+body{
+    background:rgb(235, 228, 228);
+}
+.fcontainer1{
+   display: flexbox;
+  flex-wrap: nowrap;
+  background-color:white;
+ border-style:inherit ;
+ max-width: 225px;
+ height: 890px;
+ padding: 25px;
+ margin-left: 50px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+ .first-txt {
+    position: absolute;
+    top: 180px;
+    left: 85px;
+   color: rgb(255, 255, 255);
+  
+}
+.fa-briefcase{margin-left:3%;margin-right:2%;margin-top:1%;color :seagreen;}
+.fa-house{margin-left:3%;margin-right:3%;margin-top:3%;color: seagreen;}
+.fa-house{margin-left:3%;margin-right:3%;margin-top:3%;color: seagreen;}
+.fa-phone{margin-left:3%;margin-right:3%;margin-top:3%;color:seagreen;}
+.fa-star-of-life{margin-left:3%;color:seagreen;}
+.fa-earth-africa{margin-left:3%;margin-top:10%;color:seagreen;}
+.fa-calendar-days{margin-left:3%;color:seagreen;}
+.fa-certificate{margin-right:3px;margin-left:3%; margin-top:1%;color:seagreen;}
+
+* {
+    box-sizing: small
+}
+.container {
+width: 90%;
+height: 1%;
+background-color: rgb(237, 219, 219);
+margin-left: 3%;
+border-radius:15px;
+}
+
+.skills {
+margin-top: 2px ;
+text-align: right;
+padding-top: 0%;
+padding-bottom: 0%;
+color: rgb(246, 241, 241);
+border-radius:15px;
+
+}
+.AdobePhotoshop {width: 90%; background-color: seagreen;}
+.Photography {width: 80%; background-color: seagreen;}
+.Illustrator{width: 65%; background-color: seagreen;}
+.Media {width: 60%; background-color: seagreen;}
+
+.container2{
+    width: 90%;
+    height:20px;
+    background-color: rgb(230, 222, 222);
+    margin-left: 3%;   
+    border-radius: 15px; 
+    }
+    
+    .Language {
+    margin-top: 2px ;
+    text-align: right;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    color: white;
+    border-radius:15px;
+    height: 16px;
+
+    
+    }
+    .English {width: 100%;background-color: seagreen;}
+    .Spanish{width: 80%; background-color: seagreen;}
+    .German{width:65%; background-color: seagreen;}
+  
+    .fcontainer2{
+        display: flexbox;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        background-color: white;
+        width: 800px;
+        height :500px;
+       position: absolute;
+       left: 350px;
+       top: 10px;
+        margin-top: 1%;
+    }
+   .current{
+    background-color: seagreen;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+   }
+       
+    .fcontainer3{
+        display: flexbox;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        background-color: white;
+        width: 800px;
+        height :410px;
+       position: absolute;
+       left: 350px;
+       top: 580px;
+        
+       }
+       .footer {
+        display: flexbox;
+        position: relative;
+        width: 95%;
+        height: 95px;
+        bottom: 0%;
+        background-color:seagreen;
+        color: white;
+        text-align:center;
+        margin-top: 110px;
+
+       
+     }
